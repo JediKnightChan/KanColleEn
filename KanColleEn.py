@@ -2,7 +2,6 @@ from mitmproxy import ctx
 from mitmproxy.http import HTTPFlow
 from os.path import join as path_join
 
-json_dir = "C:/Users/JediKnight/Desktop/KanColleEn/"
 img_dir = "C:/Users/JediKnight/Desktop/KanColleEn/images/"
 game_server_name = "203.104.209.39"
 server_paths_to_image_names = {
@@ -23,6 +22,8 @@ class Modifier:
                 flow.response.headers["Content-Length"] = str(len(new_image_content)).encode("utf-8")
                 flow.response.set_content(new_image_content)
             """
+            # API test translation
+            json_dir = "./"
             elif requested_path == "/kcsapi/api_get_member/questlist":
                 api_body = flow.response.get_text()
                 ctx.log.info("\r\n\r\n\r\n\r\n!!!!!!! That's what we need! !!!!!!!\r\n{}\r\n\r\n\r\n\r\n".format(
@@ -32,7 +33,6 @@ class Modifier:
                     new_content = f.read()
                 flow.response.set_text(new_content)
             """
-
 addons = [
     Modifier()
 ]
