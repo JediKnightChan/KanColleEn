@@ -56,13 +56,18 @@ scripts such as hash checkers have been found yet)
     ```bash
     $ mitmdump --set anticache -s ./KanColleEn.py
     ```
+
 -   Set 127.0.0.1:8080 as your proxy server
     (You can open your browser settings and search for "proxy")
+
 -   Optional: go to [mitm.it](http://mitm.it/ "link title") and install certificate
     if you are going to use https web-sites during gameplay
+
+-   Clear your browser cache
+
 -   Enable official English interface in your game preferences
     (Main menu (Port) - right bottom "Settings" button - Interface mode - last option - "Settings" button)
-        
+
 
 ## Features
 
