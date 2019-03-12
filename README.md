@@ -1,5 +1,7 @@
 # KanColleEn - Kantai Collection English localization
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2efe0aa618504afc8a2943f90d9975e9)](https://app.codacy.com/app/JediKnightChan/KanColleEn?utm_source=github.com&utm_medium=referral&utm_content=JediKnightChan/KanColleEn&utm_campaign=Badge_Grade_Dashboard)
+
 KanColleEn uses MITMProxy for replacing game data on Japanese with translated content
 
 ## Screenshots
