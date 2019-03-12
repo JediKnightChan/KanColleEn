@@ -52,7 +52,7 @@ scripts such as hash checkers have been found yet)
 - Optional: go to [mitm.it](http://mitm.it/ "link title") and install certificate
 if you are going to use https web-sites during gameplay
 - Enable official English interface in your game preferences
-(Main menu (Port) - left bottom "Settings" button - Interface mode - last option - "Settings" button)
+(Main menu (Port) - right bottom "Settings" button - Interface mode - last option - "Settings" button)
     
 ## Features
 - Can translate game interface
