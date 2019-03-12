@@ -45,9 +45,9 @@ scripts such as hash checkers have been found yet)
 
     ***Don't have Python3 installed?***
 
--   Install MITMProxy from their [official site](https://mitmproxy.org/ "link title")
+    -   Install MITMProxy from their [official site](https://mitmproxy.org/ "link title")
 
-    > You will have to find the path to MITMProxy, eg "C:/Program Files (x86)/mitmproxy/bin/" (Windows)
+        > You will have to find the path to MITMProxy, eg "C:/Program Files (x86)/mitmproxy/bin/" (Windows)
 
 -   Start one of the 3 MITMProxy programs (mitmdump/mitmweb/mitmproxy) and pass KanColleEn.py to it
     ```sh
