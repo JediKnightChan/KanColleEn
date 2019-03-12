@@ -29,7 +29,7 @@ scripts such as hash checkers have been found yet)
 
 -   Download this repository or git clone it, cd to it
 
-    ```bash
+    ```sh
     $ git clone https://github.com/JediKnightChan/KanColleEn.git
     $ cd KanColleEn
     ```
@@ -37,7 +37,7 @@ scripts such as hash checkers have been found yet)
 -   ***Do you have Python3?***
 
     -   If yes, install mitmproxy via PIP3. 
-        ```bash
+        ```sh
         $ pip3 install mitmproxy
         ```
         > MITMProxy will be installed to your Python/Scripts directory, so you will be able to start it from any directory,
@@ -50,10 +50,10 @@ scripts such as hash checkers have been found yet)
     > You will have to find the path to MITMProxy, eg "C:/Program Files (x86)/mitmproxy/bin/" (Windows)
 
 -   Start one of the 3 MITMProxy programs (mitmdump/mitmweb/mitmproxy) and pass KanColleEn.py to it
-    ```cmd
+    ```sh
     > mitmdump.exe --set anticache -s ./KanColleEn.py
     ```
-    ```bash
+    ```sh
     $ mitmdump --set anticache -s ./KanColleEn.py
     ```
 
@@ -67,7 +67,6 @@ scripts such as hash checkers have been found yet)
 
 -   Enable official English interface in your game preferences
     (Main menu (Port) - right bottom "Settings" button - Interface mode - last option - "Settings" button)
-
 
 ## Features
 
