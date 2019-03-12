@@ -2,7 +2,7 @@ from mitmproxy import ctx
 from mitmproxy.http import HTTPFlow
 from os.path import join as path_join
 
-img_dir = "C:/Users/JediKnight/Desktop/KanColleEn/images/"
+img_dir = "./images/"
 game_server_name = "203.104.209.39"
 server_paths_to_image_names = {
     "/kcs2/img/port/port_ringmenu.png": "port_ringmenu_tr.png",
