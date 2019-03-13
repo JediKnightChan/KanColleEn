@@ -13,6 +13,7 @@ def sprite_to_images(sprite_filename):
     :param str sprite_filename: filename of the png sprite you want to extract images from (eg "port_ringmenu")
     :return:
     """
+
     root_dir = ".."
     json_filepath = "{0}/image_jsons/{1}.json".format(root_dir, sprite_filename)
     sprite_filepath = "{0}/images/{1}.png".format(root_dir, sprite_filename)

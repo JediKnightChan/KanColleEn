@@ -15,6 +15,7 @@ def images_to_sprite(sprite_filename):
     :param str sprite_filename: filename of the png sprite you want to create (eg "port_ringmenu")
     :return: None
     """
+
     root_dir = ".."
     json_filepath = "{0}/image_jsons/{1}.json".format(root_dir, sprite_filename)
     save_to = "{0}/images/{1}_tr.png".format(root_dir, sprite_filename)
@@ -46,5 +47,5 @@ def images_to_sprite(sprite_filename):
 
 
 if __name__ == '__main__':
-    sprite_filename = "port_ringmenu"
+    sprite_filename = "port_sidemenu"
     images_to_sprite(sprite_filename)
