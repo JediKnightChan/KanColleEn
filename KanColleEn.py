@@ -7,7 +7,8 @@ game_server_name = "203.104.209.39"
 server_paths_to_image_names = {
     "/kcs2/img/port/port_ringmenu.png": "port_ringmenu_tr.png",
     "/kcs2/img/port/port_sidemenu.png":"port_sidemenu_tr.png",
-    "/kcs2/img/arsenal/arsenal_main.png": "arsenal_main_tr.png"
+    "/kcs2/img/arsenal/arsenal_main.png": "arsenal_main_tr.png",
+    "/kcs2/img/repair/repair_main.png": "repair_main_tr.png"
 }
 
 

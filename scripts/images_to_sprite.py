@@ -47,5 +47,5 @@ def images_to_sprite(sprite_filename):
 
 
 if __name__ == '__main__':
-    sprite_filename = "port_sidemenu"
+    sprite_filename = "repair_main"
     images_to_sprite(sprite_filename)
