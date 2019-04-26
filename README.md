@@ -71,8 +71,15 @@ scripts such as hash checkers have been found yet)
 ## Features
 
 -   Can translate game interface
--   TODO: add game API translation (dialogues, quests, fleet girls, etc)
+-   **NEW: Can translate fleet girls' names and quests**
+-   TODO: add other game API translation (dialogues, etc)
+-   TODO: handle fonts (change interface font, change fleet girls' names font size)
+
 
 **ALL HAIL BRITANNIA!**
+
+***API translation is taken from 
+[kc3-translations](https://github.com/KC3Kai/kc3-translations/tree/4b655609e1c5290d28700d6aabd5eeb1a6938f26) 
+repo. Thanks to translators!***
 
 ***All rights reversed***
