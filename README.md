@@ -8,11 +8,13 @@ KanColleEn uses MITMProxy for replacing game data on Japanese with translated co
 
 ![Preview 1](./screenshots/1.png)
 
+![Preview 2](./screenshots/2.png)
+
 ## Warning
 
 ### Open Beta Test
 
-Not properly tested yet and not ready for mass distribution
+Not properly tested yet.
 
 Accounts banned: 0/1 (0%)
 
@@ -21,9 +23,15 @@ scripts such as hash checkers have been found yet)
 
 ## Translation Progress
 
+### Interface
 -   Main game menu (ring menu)
 -   Side game menu
 -   "Build" tab
+-   "Docks" tab
+
+### API
+-   Quests
+-   Fleet girls' names
 
 ## Installation
 
@@ -75,6 +83,10 @@ scripts such as hash checkers have been found yet)
 -   TODO: add other game API translation (dialogues, etc)
 -   TODO: handle fonts (change interface font, change fleet girls' names font size)
 
+## Support
+-   Bitcoin (recommended): 1PBMD7w7w9vEeBERhiuUpjwihecDTmbp9G
+-   [Patreon](https://www.patreon.com/jediknightchannel)
+-   [Donation alerts](https://www.donationalerts.com/r/jediknightchannel) (not recommended at all)
 
 **ALL HAIL BRITANNIA!**
 
