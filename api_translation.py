@@ -1,8 +1,15 @@
 import json
 import re
+from os.path import join as path_join
 
 
 MAX_QUEST_LINE_LEN = 80
+JP_TO_EN_FILE_DIR = "api"
+JP_TO_EN_FILE_NAMES = [
+    "ship_names.json",
+    "item_names.json",
+    "ship_types.json",
+]
 
 
 class ApiTranslator:
@@ -11,15 +18,17 @@ class ApiTranslator:
     """
     def __init__(self):
         self.jp_to_en = {}
-        with open("api/ship_names.json", "rb") as f:
-            self.jp_to_en.update(json.load(f))
+        for filename in JP_TO_EN_FILE_NAMES:
+            with open(path_join(JP_TO_EN_FILE_DIR, filename), "rb") as f:
+                self.jp_to_en.update(json.load(f))
         with open("api/quests_en.json", "rb") as f:
             self.quests = json.load(f)
 
     def translate_api(self, content):
         """
-        :param content: content of the common api response
-        :return: translated content
+        :param bytestring content: content of the common api response
+        :return bytestring new_content: translated content
+
         Should be used to translate files with unchanging game data pieces (such as fleet girls' names)
         """
         content = content.replace(b"svdata=", b"")
@@ -30,8 +39,9 @@ class ApiTranslator:
 
     def translate_quests(self, content):
         """
-        :param content: content of the quests api response
-        :return: translated content
+        :param bytestring content: content of the quests api response
+        :return bytestring new_content: translated content
+
         Quests are often updated, so we should translate them by their ids
         """
         content = content.replace(b"svdata=", b"")
@@ -62,7 +72,8 @@ class ApiTranslator:
             elif value in self.jp_to_en:
                 my_dict[key] = self.jp_to_en[value]
 
-    def break_string(self, string):
+    @staticmethod
+    def break_string(string):
         """
         :param string: string we want to break
         :return: string with inserted '\n'

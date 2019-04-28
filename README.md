@@ -31,7 +31,9 @@ scripts such as hash checkers have been found yet)
 
 ### API
 -   Quests
+-   Ship types
 -   Fleet girls' names
+-   Item names
 
 ## Installation
 
@@ -79,7 +81,7 @@ scripts such as hash checkers have been found yet)
 ## Features
 
 -   Can translate game interface
--   **NEW: Can translate fleet girls' names and quests**
+-   **NEW: Can translate fleet girls' names, items and quests**
 -   TODO: add other game API translation (dialogues, etc)
 -   TODO: handle fonts (change interface font, change fleet girls' names font size)
 
